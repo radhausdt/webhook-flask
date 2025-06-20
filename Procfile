@@ -1,2 +1,1 @@
-web: python3 webhook_server.py
-
+web: gunicorn webhook_server:app
